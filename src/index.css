@@ -109,3 +109,17 @@ body{
 .List_div i:hover{
   color: red;
 }
+
+@media(max-width:400px){
+  .center_div{
+    width:320px;
+  }
+  .input{
+    width:190px;
+    margin-left: 12px;
+    margin-right: 5px;
+  }
+  .btn{
+    font-size: 25px;
+  }
+}
