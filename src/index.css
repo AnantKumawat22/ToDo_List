@@ -1,13 +1,111 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root{
+  width:100%;
+  height:auto;
+}
+
+.main_head{
+  background-color: white;
+  text-align: center;
+  color:rgb(161 0 255);
+  font-family: sans-serif;
+  line-height: 35px;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+}
+
+.inner_div{
+  background-color: #2af1b9;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center_div{
+  width:380px;
+  height:500px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 30px -12px black;
+
+}
+
+.app_head{
+  background-color: rgb(243, 109, 210);
+  width:100%;
+  height:60px;
+  line-height: 60px;
+  word-spacing: 1px;
+  text-align: center;
+  color:white;
+  font-family: sans-serif;
+}
+
+.input{
+  margin-left: 25px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-family: verdana;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  text-align: center;
+  padding:10px 20px;
+  margin-right: 7px;
+  border-bottom: 2px solid rgb(231, 54, 54);
+}
+
+.btn{
+  font-size: 30px;
+  color:black;
+  width:50px;
+  height:50px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 5px 5px 30px -12px black;
+  background-color: white;
+}
+
+.btn:hover{
+  color: limegreen;
+}
+
+.oder_list{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-left: -15px;
+  list-style: none;
+}
+
+.oder_list li{
+  display: inline;
+  font-family: sans-serif;
+  font-size: 27px;
+  text-transform: capitalize;
+  color: limegreen;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.List_div{
+  margin-top: 20px;
+  display: inline;
+}
+
+.List_div i{
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.List_div i:hover{
+  color: red;
 }
